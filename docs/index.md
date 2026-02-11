@@ -1,11 +1,11 @@
-# Bun venit
+# Welcome
 
-Acest site conține **writeup-uri CTF** – soluții explicate pas cu pas pentru challenge-uri de reverse engineering, crypto și altele.
+This site hosts **CTF writeups** – step-by-step solutions for reverse engineering, crypto, and other challenges.
 
-## Writeups disponibile
+## Available writeups
 
-- [**Froggy CrackMe**](writeups/froggy-crackme.md) – CrackMe cu validare name/serial, FNV + mix; patch la un singur jump sau keygen cu Z3.
+- [**Froggy CrackMe**](writeups/froggy-crackme.md) – Name/serial CrackMe with FNV + mix; single-jump patch or Z3 keygen (`froggy_solver.py`).
 
 ---
 
-*Site generat cu [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).*
+*Site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).*

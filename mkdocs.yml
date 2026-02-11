@@ -1,25 +1,25 @@
-# Configurare site CTF Writeups - amariei.org
+# CTF Writeups site - amariei.org
 site_name: CTF Writeups
-site_description: Soluții CTF explicate pas cu pas
+site_description: Step-by-step CTF solutions
 site_url: https://amariei.org
 site_author: amariei
 
 theme:
   name: material
-  language: ro
+  language: en
   palette:
     - scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Schimbă tema
+        name: Switch theme
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Schimbă tema
+        name: Switch theme
   features:
     - content.code.copy
     - content.tabs.link
@@ -37,7 +37,7 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Acasă: index.md
+  - Home: index.md
   - Writeups:
     - Froggy CrackMe: writeups/froggy-crackme.md
 
