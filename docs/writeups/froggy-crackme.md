@@ -9,7 +9,8 @@
 - **Validation:** Name and serial are combined via FNV-1a hashing and a splitmix64-style mix; a single final comparison decides success.
 - **Elegant weakness:** One conditional jump controls the outcome. Patching that jump makes the program accept any valid-format input.
 
-**Challenge archive:** [Download froggy_crackme.zip](froggy_crackme.zip)
+- **Challenge archive:** [Download froggy_crackme.zip](froggy_crackme.zip)
+- **Solver script:** [froggy_solver.py](froggy_solver.py) (view or download the keygen source)
 
 ---
 
@@ -72,11 +73,13 @@ The solver **`froggy_solver.py`** does the following:
 
 ### Usage
 
+Download the solver: [froggy_solver.py](froggy_solver.py), then:
+
 ```bash
 python3 froggy_solver.py
 ```
 
-Then enter a name when prompted (e.g. `Froggy`). The script prints a valid serial. It tries a 15s timeout first, then 60s if needed.
+Enter a name when prompted (e.g. `Froggy`). The script prints a valid serial. It tries a 15s timeout first, then 60s if needed.
 
 **Dependencies:** `z3-solver` (`pip install z3-solver`).
 
